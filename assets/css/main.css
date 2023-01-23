@@ -1856,7 +1856,7 @@ input, select, textarea {
 
 		select option {
 			color: #787878;
-			background: #fff;
+			background: #000;
 		}
 
 		select:focus::-ms-value {
@@ -1940,7 +1940,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #787878;
 			border-color: #787878;
-			color: #fff;
+			color: #000;
 			content: '\f00c';
 		}
 
@@ -2072,7 +2072,7 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
+				color: #000;
 				content: 'View';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2519,7 +2519,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #49bf9d;
 			border-color: #49bf9d;
-			color: #ffffff !important;
+			color: #000000 !important;
 		}
 
 			input[type="submit"].primary:hover,
