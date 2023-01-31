@@ -240,12 +240,12 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+/* 
 	.navbar {
 	  background-color: black;
-	}
+	} */
 
-	.nav-item, .navbar-brand, .navbar-text {
+	.nav-item, .navbar-brand, .navbar-text, navbar-link{
 	  color: white;
 	}
 /* Container */
