@@ -1758,6 +1758,32 @@ input, select, textarea {
 
 		}
 
+/* Navigation */
+		nav {
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		  padding: 20px;
+		  background-color: lightgray;
+		}
+
+		nav ul {
+		  display: flex;
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+		}
+
+		nav li {
+		  margin: 0 10px;
+		}
+
+		nav a {
+		  text-decoration: none;
+		  color: black;
+		}
+
+
 /* Section/Article */
 
 	section.special, article.special {
