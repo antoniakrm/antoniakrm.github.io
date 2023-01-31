@@ -245,7 +245,7 @@ input, select, textarea {
 	  background-color: black;
 	}
 
-	.nav-item, .navbar-brand {
+	.nav-item, .navbar-brand, .navbar-text {
 	  color: white;
 	}
 /* Container */
