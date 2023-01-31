@@ -241,6 +241,13 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.navbar {
+	  background-color: black;
+	}
+
+	.nav-item, .navbar-brand {
+	  color: white;
+	}
 /* Container */
 
 	.container {
