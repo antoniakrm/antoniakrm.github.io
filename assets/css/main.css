@@ -241,13 +241,60 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	.navbar {
+/* Navigation */
+
+
+/* Define the navigation bar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+}
+
+/* Define the navigation links */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+/* Add hover effect to navigation links */
+.navbar a:hover {
+  color: #bbb;
+}
+
+/* Define the brand name */
+.navbar .brand {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+/* Define the responsive navigation bar */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* 	.navbar {
 	  background-color: black;
 	} 
 
 	.nav-item, .navbar-brand, .navbar-text, navbar-link{
 	  color: white;
-	} 
+	}  */
 /* Container */
 
 	.container {
