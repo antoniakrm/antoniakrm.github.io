@@ -367,7 +367,7 @@ ul img {
 }
 
 .lavaLampWithImage li.back {
-  background: #DDD;  
+  background: rgb(231, 190, 165);  
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
