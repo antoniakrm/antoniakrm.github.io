@@ -1,56 +1,3 @@
-/* Mobile Styles */
-@media only screen and (max-width: 767px) {
-  #main {
-    width: 100%;
-  }
-
-  #logo {
-    width: 100%;
-    float: none;
-    text-align: center;
-  }
-
-  #logo h1 {
-    padding: 10px 0;
-  }
-
-  nav {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-
-  #site_content {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #content,
-  #content_whole {
-    width: 100%;
-    padding: 0 15px;
-    float: none;
-  }
-
-  #sidebar_container,
-  #sidebar_container_right {
-    float: none;
-    height: auto;
-  }
-
-  ul.images {
-    width: auto;
-    overflow: visible;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    padding-top: 0;
-  }
-}
-
-
-
 @font-face {
   font-family: News Cycle;
   src: url('../fonts/NewsCycle-Regular.eot');
@@ -217,6 +164,15 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+
+  figure {
+    order: -1; 
+    align-self: flex-start;
+  }
+  
 }
 
 figcaption {
@@ -450,3 +406,6 @@ ul img {
 .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
   border: none;
 }
+
+/* Mobile styles */
+
