@@ -370,33 +370,6 @@ ul img {
   border: 0px solid #555;
 }
 
-.lavaLampWithImage li a {
-  font: normal 130% 'News Cycle', sans-serif;
-  text-shadow: 1px 1px #FFF;
-  text-decoration: none;
-  color: #222;
-  outline: none;
-  text-align: center;  /* Horizontally center the text */
-  letter-spacing: 0;
-  z-index: 10;
-  display: flex;  /* Use flexbox to align text inside */
-  justify-content: center;  /* Center horizontally */
-  align-items: center;  /* Center vertically */
-  height: 100%;  /* Full height of the li */
-  padding: 0 9px;
-  position: relative;
-  overflow: hidden;
-  margin: auto 10px;
-}
-
-.lavaLampWithImage li.back {
-  background: rgb(231, 190, 165);  
-  border-radius: 15px;
-  height: 30px;
-  z-index: 8;
-  position: absolute;
-  top: 0;  /* Ensure it aligns with the top of li */
-}
 
 /* Mobile styles */
 
