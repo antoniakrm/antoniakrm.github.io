@@ -375,6 +375,12 @@ ul img {
   list-style: none;
 }
 
+.lavaLampWithImage {
+  display: flex;
+  justify-content: center; /* Centers the list items horizontally */
+  align-items: center;     /* Aligns the list items vertically (if needed) */
+}
+
 .lavaLampWithImage li.back {
   background: rgb(231, 190, 165);  
   border-radius: 15px 15px 15px 15px;
