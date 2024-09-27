@@ -370,43 +370,23 @@ ul img {
   border: 0px solid #555;
 }
 
-.lavaLampWithImage {
-  position: relative;
-  height: 25px;
-  padding: 15px 5px 15px 0;
-  margin: 10px 0 0 0;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;  /* Centers the menu horizontally */
-  align-items: center;
-  margin: 0 auto; /* Centers the entire menu */
-}
-
 .lavaLampWithImage li a {
   font: normal 130% 'News Cycle', sans-serif;
   text-shadow: 1px 1px #FFF;
   text-decoration: none;
   color: #222;
   outline: none;
-  text-align: center;  /* Center the text horizontally */
+  text-align: center;  /* Horizontally center the text */
   letter-spacing: 0;
   z-index: 10;
-  display: flex;  /* Use flexbox for centering */
-  justify-content: center;  /* Horizontally center */
-  align-items: center;  /* Vertically center */
-  height: 100%;  /* Ensure it takes the full height of the parent li */
+  display: flex;  /* Use flexbox to align text inside */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;  /* Center vertically */
+  height: 100%;  /* Full height of the li */
   padding: 0 9px;
   position: relative;
   overflow: hidden;
   margin: auto 10px;
-}
-
-
-.lavaLampWithImage li {
-  list-style: none;
-  display: inline-block;  /* Ensures menu items are displayed inline */
-  margin: 0 10px;  /* Adds spacing between menu items */
-  position: relative; /* Ensure the 'lava' background moves with the item */
 }
 
 .lavaLampWithImage li.back {
@@ -415,25 +395,9 @@ ul img {
   height: 30px;
   z-index: 8;
   position: absolute;
-  width: 100px;  /* Define the width of the 'lava' */
-  left: 0;  /* Starting position, updated via JS */
-  transition: left 0.3s ease;  /* Smooth transition effect */
+  top: 0;  /* Ensure it aligns with the top of li */
 }
 
-.lavaLampWithImage li a {
-  font: normal 130% 'News Cycle', sans-serif;
-  text-shadow: 1px 1px #FFF;
-  text-decoration: none;
-  color: #222;
-  outline: none;
-  text-align: center;
-  z-index: 10;
-  display: inline-block; /* Ensure the anchor behaves inline */
-  height: 30px;
-  padding: 0px 9px;
-  margin: 0 10px;
-  position: relative;
-}
 
 
 /* Mobile styles */
